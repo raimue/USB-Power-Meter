@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6255,37 +6255,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="OwnStuff">
 <packages>
-<package name="ICSP-THROUGHHOLE">
-<pad name="+5V" x="1.27" y="2.54" drill="0.8" shape="offset"/>
-<pad name="MOSI" x="1.27" y="0" drill="0.8" shape="offset"/>
-<pad name="GND" x="1.27" y="-2.54" drill="0.8" shape="offset"/>
-<pad name="MISO" x="-1.27" y="2.54" drill="0.8" shape="offset" rot="R180"/>
-<pad name="SCK" x="-1.27" y="0" drill="0.8" shape="offset" rot="R180"/>
-<pad name="RST" x="-1.27" y="-2.54" drill="0.8" shape="offset" rot="R180"/>
-<text x="-1.905" y="-1.27" size="0.6096" layer="21" align="center">SCK</text>
-<text x="-1.905" y="1.27" size="0.6096" layer="21" align="center">MISO</text>
-<text x="-1.905" y="-3.81" size="0.6096" layer="21" align="center">RST</text>
-<text x="1.905" y="-1.27" size="0.6096" layer="21" align="center">MOSI</text>
-<text x="1.905" y="1.27" size="0.6096" layer="21" align="center">VCC</text>
-<text x="1.905" y="-3.81" size="0.6096" layer="21" align="center">GND</text>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-5.08" x2="-2.54" y2="-6.35" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-6.35" x2="3.81" y2="-5.08" width="0.127" layer="21" curve="90"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="3.81" x2="-3.81" y2="2.54" width="0.127" layer="21" curve="90"/>
-<text x="0" y="-4.445" size="1.4224" layer="21" align="top-center">ICSP</text>
-<wire x1="-2.6924" y1="-3.3528" x2="-1.143" y2="-3.3528" width="0.127" layer="21"/>
-</package>
 <package name="ICSP-SMD">
-<smd name="RST" x="-1.27" y="-1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
-<smd name="SCK" x="-1.27" y="0" dx="1.27" dy="0.635" layer="1" cream="no"/>
-<smd name="MISO" x="-1.27" y="1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
-<smd name="GND" x="1.27" y="-1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
-<smd name="MOSI" x="1.27" y="0" dx="1.27" dy="0.635" layer="1" cream="no"/>
-<smd name="+5V" x="1.27" y="1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
 <wire x1="-1.905" y1="-2.54635" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="2.38125" y2="-2.06375" width="0.127" layer="21" curve="90"/>
 <wire x1="2.38125" y1="-2.06375" x2="2.38125" y2="1.74625" width="0.127" layer="21"/>
@@ -6294,6 +6264,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.06375" y1="2.06375" x2="-2.38125" y2="1.74625" width="0.127" layer="21" curve="90"/>
 <wire x1="-2.38125" y1="1.74625" x2="-2.38125" y2="-2.06375" width="0.127" layer="21"/>
 <wire x1="-2.38125" y1="-2.06375" x2="-1.905" y2="-2.54635" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.7625" y1="-0.635" x2="-2.8575" y2="-0.635" width="0.127" layer="21"/>
+<smd name="+5V" x="1.27" y="1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
+<smd name="GND" x="1.27" y="-1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
+<smd name="MISO" x="-1.27" y="1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
+<smd name="MOSI" x="1.27" y="0" dx="1.27" dy="0.635" layer="1" cream="no"/>
+<smd name="RST" x="-1.27" y="-1.27" dx="1.27" dy="0.635" layer="1" cream="no"/>
+<smd name="SCK" x="-1.27" y="0" dx="1.27" dy="0.635" layer="1" cream="no"/>
 <text x="0" y="-2.38125" size="0.635" layer="21" align="bottom-center">ICSP</text>
 <text x="2.54" y="0" size="0.8128" layer="21" align="center-left">MOSI</text>
 <text x="2.54" y="1.27" size="0.8128" layer="21" align="center-left">VCC</text>
@@ -6301,13 +6278,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-1.27" size="0.8128" layer="21" align="center-right">RST</text>
 <text x="-2.54" y="0" size="0.8128" layer="21" align="center-right">SCK</text>
 <text x="-2.54" y="1.27" size="0.8128" layer="21" align="center-right">MISO</text>
-<wire x1="-4.7625" y1="-0.635" x2="-2.8575" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="OLED-I2C">
-<pad name="GND" x="-1.27" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="SCL" x="1.27" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="SDA" x="3.81" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="VCC" x="-3.81" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
 <wire x1="-13.5" y1="-13.5" x2="13.5" y2="-13.5" width="0.127" layer="51"/>
 <wire x1="13.5" y1="-13.5" x2="13.5" y2="13.5" width="0.127" layer="51"/>
 <wire x1="13.5" y1="13.5" x2="-13.5" y2="13.5" width="0.127" layer="51"/>
@@ -6332,12 +6304,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-11" y1="13.1" x2="-11" y2="10.9" width="0" layer="51" curve="-180"/>
 <wire x1="-12" y1="13.1" x2="-11" y2="13.1" width="0" layer="51"/>
 <wire x1="-12" y1="10.9" x2="-11" y2="10.9" width="0" layer="51"/>
+<pad name="VCC" x="-1.27" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="SCL" x="1.27" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="SDA" x="3.81" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="GND" x="-3.81" y="11.85" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
 </package>
 <package name="WUERTH-SPST-SMD">
-<smd name="3" x="-2" y="-1" dx="1" dy="1" layer="1"/>
-<smd name="1" x="2" y="-1" dx="1" dy="1" layer="1"/>
-<smd name="4" x="-2" y="0.7" dx="1" dy="1" layer="1"/>
-<smd name="2" x="2" y="0.7" dx="1" dy="1" layer="1"/>
 <wire x1="-2.5" y1="-1.895" x2="2.5" y2="-1.895" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.895" x2="2.5" y2="1.605" width="0.127" layer="21"/>
 <wire x1="2.5" y1="1.605" x2="-2.5" y2="1.605" width="0.127" layer="21"/>
@@ -6345,6 +6317,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.3" y1="-1.925" x2="-1.3" y2="-2.975" width="0.127" layer="51"/>
 <wire x1="-1.3" y1="-2.975" x2="1.3" y2="-2.975" width="0.127" layer="51"/>
 <wire x1="1.3" y1="-2.975" x2="1.3" y2="-1.925" width="0.127" layer="51"/>
+<smd name="1" x="2" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="2" x="2" y="0.7" dx="1" dy="1" layer="1"/>
+<smd name="3" x="-2" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="4" x="-2" y="0.7" dx="1" dy="1" layer="1"/>
 </package>
 <package name="TP-0.8MM">
 <pad name="P$1" x="0" y="0" drill="0.8" shape="octagon"/>
@@ -6378,50 +6354,74 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P$2" x="0" y="0.75" drill="0.5" shape="octagon"/>
 <text x="0" y="-0.5" size="1.27" layer="21" align="top-center">&gt;Name</text>
 </package>
+<package name="ICSP-THROUGHHOLE">
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-5.08" x2="-2.54" y2="-6.35" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-6.35" x2="3.81" y2="-5.08" width="0.127" layer="21" curve="90"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.6924" y1="-3.3528" x2="-1.143" y2="-3.3528" width="0.127" layer="21"/>
+<pad name="+5V" x="1.27" y="2.54" drill="0.8" shape="offset"/>
+<pad name="GND" x="1.27" y="-2.54" drill="0.8" shape="offset"/>
+<pad name="MISO" x="-1.27" y="2.54" drill="0.8" shape="offset" rot="R180"/>
+<pad name="MOSI" x="1.27" y="0" drill="0.8" shape="offset"/>
+<pad name="RST" x="-1.27" y="-2.54" drill="0.8" shape="offset" rot="R180"/>
+<pad name="SCK" x="-1.27" y="0" drill="0.8" shape="offset" rot="R180"/>
+<text x="-1.905" y="-1.27" size="0.6096" layer="21" align="center">SCK</text>
+<text x="-1.905" y="1.27" size="0.6096" layer="21" align="center">MISO</text>
+<text x="-1.905" y="-3.81" size="0.6096" layer="21" align="center">RST</text>
+<text x="1.905" y="-1.27" size="0.6096" layer="21" align="center">MOSI</text>
+<text x="1.905" y="1.27" size="0.6096" layer="21" align="center">VCC</text>
+<text x="1.905" y="-3.81" size="0.6096" layer="21" align="center">GND</text>
+<text x="0" y="-4.445" size="1.4224" layer="21" align="top-center">ICSP</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ICSP">
-<pin name="MISO" x="-10.16" y="5.08" length="middle"/>
-<pin name="SCK" x="-10.16" y="0" length="middle"/>
-<pin name="RST" x="-10.16" y="-2.54" length="middle"/>
-<pin name="5V" x="-10.16" y="7.62" length="middle"/>
-<pin name="MOSI" x="-10.16" y="2.54" length="middle"/>
-<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
 <wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<pin name="5V" x="-10.16" y="7.62" length="middle"/>
+<pin name="GND" x="-10.16" y="-5.08" length="middle"/>
+<pin name="MISO" x="-10.16" y="5.08" length="middle"/>
+<pin name="MOSI" x="-10.16" y="2.54" length="middle"/>
+<pin name="RST" x="-10.16" y="-2.54" length="middle"/>
+<pin name="SCK" x="-10.16" y="0" length="middle"/>
 <text x="5.08" y="1.016" size="1.27" layer="94" rot="R270" align="bottom-center">ICSP</text>
 </symbol>
 <symbol name="OLED-I2C">
-<pin name="VCC" x="-7.62" y="7.62" length="middle"/>
-<pin name="SCL" x="-7.62" y="2.54" length="middle"/>
-<pin name="SDA" x="-7.62" y="-2.54" length="middle"/>
-<pin name="GND" x="-7.62" y="-7.62" length="middle"/>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<pin name="GND" x="-7.62" y="-7.62" length="middle"/>
+<pin name="SCL" x="-7.62" y="2.54" length="middle"/>
+<pin name="SDA" x="-7.62" y="-2.54" length="middle"/>
+<pin name="VCC" x="-7.62" y="7.62" length="middle"/>
 <text x="7.62" y="0" size="1.778" layer="94" rot="R270" align="center">OLED-DISPLAY</text>
 </symbol>
 <symbol name="SPST-SWITCH">
+<circle x="1.27" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="-1.27" y="0" radius="0.3592" width="0.2032" layer="94"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.6256" y2="0" width="0.1524" layer="94"/>
-<circle x="1.27" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="-1.27" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<pin name="O" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="O" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="TESTPOINT">
-<pin name="TP" x="0" y="0" visible="off" length="middle" rot="R90"/>
-<text x="0.762" y="5.842" size="1.778" layer="94" align="center-left">&gt;Name</text>
 <wire x1="0" y1="5.08" x2="0.635" y2="5.715" width="0.254" layer="94"/>
 <wire x1="0.635" y1="5.715" x2="0" y2="6.35" width="0.254" layer="94"/>
 <wire x1="0" y1="6.35" x2="-0.635" y2="5.715" width="0.254" layer="94"/>
 <wire x1="-0.635" y1="5.715" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="TP" x="0" y="0" visible="off" length="middle" rot="R90"/>
+<text x="0.762" y="5.842" size="1.778" layer="94" align="center-left">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6465,6 +6465,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="OLED-I2C">
 <connects>
+<connect gate="G$1" pin="GND" pad="VCC"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GND-VCC-SCL-SDA" package="OLED-I2C">
+<connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
@@ -6497,41 +6508,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="TESTPOINT" x="0" y="5.08"/>
 </gates>
 <devices>
+<device name="0.5MM-DRILL-WIRE-LOOP" package="TP-0.5MM-DUAL">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="0.8MM-DRILL" package="TP-0.8MM">
 <connects>
 <connect gate="G$1" pin="TP" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1MM-DRILL" package="TP-1MM">
-<connects>
-<connect gate="G$1" pin="TP" pad="TP"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1.2MM-DRILL" package="TP-1.2MM">
-<connects>
-<connect gate="G$1" pin="TP" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1MM-DUAL-DRILL-WIRE-LOOP" package="TP-1MM-DUAL">
-<connects>
-<connect gate="G$1" pin="TP" pad="P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1.2MM-DUAL-DRILL-WIRE-LOOP" package="TP-1.2MM-DUAL">
-<connects>
-<connect gate="G$1" pin="TP" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6545,7 +6532,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="0.5MM-DRILL-WIRE-LOOP" package="TP-0.5MM-DUAL">
+<device name="1.2MM-DRILL" package="TP-1.2MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.2MM-DUAL-DRILL-WIRE-LOOP" package="TP-1.2MM-DUAL">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1MM-DRILL" package="TP-1MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1MM-DUAL-DRILL-WIRE-LOOP" package="TP-1MM-DUAL">
 <connects>
 <connect gate="G$1" pin="TP" pad="P$1 P$2"/>
 </connects>
@@ -7222,7 +7233,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="U$2" library="OwnStuff" deviceset="OLED-I2C" device=""/>
+<part name="U$2" library="OwnStuff" deviceset="OLED-I2C" device="GND-VCC-SCL-SDA" value="OLED-I2CGND-VCC-SCL-SDA"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10kΩ"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10kΩ"/>
 <part name="VI" library="OwnStuff" deviceset="TESTPOINT" device="0.5MM-DRILL-WIRE-LOOP"/>
